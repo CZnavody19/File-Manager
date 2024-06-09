@@ -216,7 +216,6 @@ namespace file_explorer
             System.Windows.Clipboard.SetText(((ExplorerItem)UI_listview_files.SelectedItem).path);
         }
 
-        // dont mind me with pointers
         private void UI_CM_Rename_Click(object sender, RoutedEventArgs e)
         {
             Rename renameDialog = new Rename((ExplorerItem)UI_listview_files.SelectedItem);

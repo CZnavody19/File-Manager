@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:file_explorer"
         mc:Ignorable="d"
         Closing="Window_Closing"
-        Icon="./icon.png"
         Title="Purchased File Manager 3000 Pro Max" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
@@ -30,19 +29,5 @@
         </StatusBar>
         <local:FileView/>
         <local:FileView x:Name="testitem" Grid.Column="1"/>
-        <!--<Menu Grid.ColumnSpan="2" Height="24">
-            <MenuItem Header="File" Height="24">
-                <MenuItem x:Name="UI_menu_options" Header="Options" Click="UI_menu_options_Click">
-                    <MenuItem.ToolTip>
-                        <ToolTip Content="Program options"/>
-                    </MenuItem.ToolTip>
-                </MenuItem>
-                <MenuItem x:Name="UI_menu_exit" Header="Exit" Click="UI_menu_exit_Click">
-                    <MenuItem.ToolTip>
-                        <ToolTip Content="Exit the program"/>
-                    </MenuItem.ToolTip>
-                </MenuItem>
-            </MenuItem>
-        </Menu>-->
     </Grid>
 </Window>

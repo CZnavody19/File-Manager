@@ -12,22 +12,10 @@
 
   <ItemGroup>
     <None Remove="20.jpg" />
-    <None Remove="icon.png" />
-    <None Remove="splash.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="8.0.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <SplashScreen Include="splash.png" />
   </ItemGroup>
 
   <ItemGroup>
